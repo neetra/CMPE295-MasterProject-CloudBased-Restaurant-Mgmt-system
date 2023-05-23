@@ -1,0 +1,8 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS SP_GetAllCategories $$
+CREATE PROCEDURE SP_GetAllCategories()
+BEGIN
+	SELECT * FROM Category;
+END$$
+
+DELIMITER ;

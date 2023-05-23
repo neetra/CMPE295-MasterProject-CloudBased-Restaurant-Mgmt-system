@@ -1,0 +1,90 @@
+id,position,name,score,ratings,category,price_range,full_address,zip_code,lat,lng
+1,19,PJ Fresh (224 Daniel Payne Drive),,,"Burgers, American, Sandwiches",$,"224 Daniel Payne Drive, Birmingham, AL, 35207",35207,33.5623653,-86.8307025
+2,9,J' ti`'z Smoothie-N-Coffee Bar,,,"Coffee and Tea, Breakfast and Brunch, Bubble Tea",,"1521 Pinson Valley Parkway, Birmingham, AL, 35217",35217,33.58364,-86.77333
+3,6,Philly Fresh Cheesesteaks (541-B Graymont Ave),,,"American, Cheesesteak, Sandwiches, Alcohol",$,"541-B Graymont Ave, Birmingham, AL, 35204",35204,33.5098,-86.85464
+4,17,Papa Murphy's (1580 Montgomery Highway),,,Pizza,$,"1580 Montgomery Highway, Hoover, AL, 35226",35226,33.4044388,-86.8066142
+5,162,Nelson Brothers Cafe (17th St N),4.7,22,"Breakfast and Brunch, Burgers, Sandwiches",,"314 17th St N, Birmingham, AL, 35203",35203,33.51473,-86.8117
+6,75,Ocean Restaurant,,,"Seafood, Sushi, Steak",$$,"1218 20th Street South, Birmingham, AL, 35205",35205,33.49863,-86.79574
+7,27,Jinsei Sushi,4.7,63,"Sushi, Asian, Japanese",$,"1830 29th Ave S, Birmingham, AL, 35209",35209,33.48044,-86.79044
+8,26,Little India,,,"Vegetarian, Asian, Asian Fusion, Chinese, Indian, Healthy",$,"2236 Highland Ave, Birmingham, AL, 35205",35205,33.5022592,-86.7902983
+9,136,Captain D's (1284 Decatur Hwy),,,"Seafood, Fast Food, Fish and Chips, American",$,"1284 Decatur Hwy, Gardendale, AL, 35071",35071,33.6571,-86.81197
+10,51,Cajun Bistro Express,,,"Desserts, Vegetarian, Coffee and Tea",$,"1515 Pearson Ave SW, Birmingham, AL, 35211",35211,33.48684,-86.8563
+11,159,The Ice Cream Shop ,,,"Desserts, Ice Cream + Frozen Yogurt",$,"26600 Highway 31, Jamison, AL, 35085",35085,33.5207,-86.8025
+12,194, The Ice Cream Shop,,,"Ice Cream &amp; Frozen Yogurt, Comfort Food, Desserts",$,"4414 4th Ave 5, Birmingham, AL, 35222",35222,33.52642,-86.76615
+13,116,Bunrise Burgers,,,"Burgers, Fast Food, American, Comfort Food, Diner, Chicken",,"1100 Forestdale Boulevard, Birmingham, AL, 35214",35214,33.55741,-86.8903
+14,51,Panera (521 Fieldstown Road),4.6,44,"Breakfast and Brunch, salad, Sandwich, Family Meals, Pizza, Healthy, American, Chicken",$,"521 Fieldstown Road, Gardendale, AL, 35071",35071,33.6514066,-86.8192467
+15,139,The Imperial Indian,,,"Indian, Vegetarian, Pakistani, Chicken, Indian Curry",,"1024 20th Street South Unit 101, Birmingham, AL, 35205",35205,33.5009,-86.7969
+16,88,Jeni's Splendid Ice Cream (Pepper Place),5.0,20,"Ice Cream &amp; Frozen Yogurt, Comfort Food, Desserts",$$$,"219 29th St S, Birmingham, AL, 35233",35233,33.5166,-86.78995
+17,60,Exotic Wings &amp; Things,,,"Halal, Chicken, Wings",,"208 Green Springs Avenue South, Birmingham, AL, 35205",35205,33.484584,-86.823947
+18,56,Papa Murphy's (1031 Montgomery Highway),,,Pizza,$,"1031 Montgomery Highway Suite 123, Vestavia Hills, AL, 35216",35216,33.4391227,-86.7883352
+19,30,Falafel Cafe,4.9,48,"Middle Eastern, Mediterranean, Vegetarian, Greek, Healthy",$,"401 19th St S, Birmingham, AL, 35233",35233,33.5083529,-86.8031703
+20,40,MrBeast Burger (838 Odum Road),3.7,19,"American, Burgers, Sandwich",$$,"838 Odum Road, Gardendale, AL, 35071",35071,33.64548,-86.82626
+21,43,Magic City Nutrition,,,"Juice and Smoothies, Bubble Tea, Healthy, Fruit",,"2201 2nd Ave S, Birmingham, AL, 35233",35233,33.51211,-86.79992
+22,42,Miami Fusion Cafe,,,"Caribbean, Cuban, Coffee and Tea, Breakfast and Brunch",$,"2015 5th Ave N, Birmingham, AL, 35203",35203,33.5181892,-86.8073174
+23,37,Golden Temple Vegetarian Cafe,,,"Juice and Smoothies, Drinks, Comfort Food",,"1901 11th Ave S, Birmingham, AL, 35205",35205,33.49984,-86.79708
+24,32,Cinnabon baked at Flying J (224 Daniel Payne Drive),,,"Bakery, Desserts",$,"224 Daniel Payne Drive, Birmingham, AL, 35207",35207,33.56226,-86.83071
+25,135,Rjt Rae'z Wings &amp;Thiings Bbq,,,"Wings, Burgers, Sandwiches",,"100 3rd Avenue North, Birmingham, AL, 35204",35204,33.50711,-86.8344
+26,123, Five Point Public House Oyster Bar,,,"Seafood, Sushi, Steak",$,"1210 20th St S, Birmingham, AL, 35205",35205,33.49906,-86.79597
+27,113,Ruscelli's Food Truck at Mojo Pub,4.7,100,"Italian, Exclusive to Eats",$,"2801 7th Ave S, Birmingham, AL, 35233",35233,33.5111302,-86.7883882
+28,107,Sunny &amp; Fine's Breakfast Burritos (541-B Graymont Ave),,,"Mexican, Breakfast and Brunch, Burritos",$,"541-B Graymont Ave, Birmingham, AL, 35204",35204,33.5098,-86.85464
+29,104,Hollywood Grill Food Truck #1 ,,,"Wings, Burgers, BBQ",$$,"5951 Warrior River Road, Bessemer, AL, 35023",35023,33.46968,-87.03905
+30,103,Grilled Gold (541-B Graymont Ave),,,"American, Comfort Food",$$,"541-B Graymont Ave, Birmingham, AL, 35204",35204,33.51104,-86.82711
+31,101,Hollywood Grill #2,,,"Black-owned, Burgers, Comfort Food, Wings, Exclusive to Eats",$$,"811 Illinios Rd, Birmingham, AL, 35221",35221,33.4404105,-86.9068596
+32,96,Allstar Diner,,,"Ice Cream &amp; Frozen Yogurt, Comfort Food, Desserts, Exclusive to Eats",$,"5704 Birmingport Rd, Sylvan Springs, AL, 35118",35118,33.508498,-87.030447
+33,88,Wings R King Express,,,"Salads, Sandwich, Wings, Burgers, Seafood, Healthy, Black-owned",$$$,"1137 Arkadelphia Road, Birmingham, AL, 35204",35204,33.52272,-86.84984
+34,81,Gus's Hot Dogs,,,Hot Dog,$$,"14 Rex Ln, Adamsville, AL, 35005",35005,33.58787,-86.9364
+35,80,Starbucks (Hwy 11 and Avenue W),4.6,21,"Bakery, Breakfast and Brunch, Cafe, Coffee &amp; Tea",$,"2401 Crossplex Boulevard 101, Birmingham, AL, 35208",35208,33.4979443,-86.8743905
+36,77,"Moe's Southwest Grill (655 Fieldstown Road, Suite #158)",4.8,24,"Mexican, Fast Food, Salads, Healthy",$,"655 Fieldstown Road, Gardendale, AL, 35071",35071,33.6497578,-86.8239419
+37,66,La Tia Paisa Taco Shop,4.3,24,"Mexican, Breakfast and Brunch, Burritos",$$,"406 W Valley Ave, Homewood, AL, 35209",35209,33.47075,-86.82614
+38,61,CHOP N FRESH,4.8,39,"Salads, Vegetarian, Bowls",$,"291 Rele Street, Mountain Brook, AL, 35223",35223,33.48604,-86.77366
+39,56,Underground Vegan,4.8,62,"Vegan, Healthy, Vegetarian",$,"2012 Magnolia Avenue South R3, Birmingham, AL, 35205",35205,33.5009,-86.79627
+40,51,Cicis (808 Greensprings Highway Suite 132),4.4,21,pizza,$,"808 Green Springs Highway, Homewood, AL, 35209",35209,33.460857,-86.819214
+41,15,McAlister's Deli  (1801 4th Avenue South),4.7,100,"Sandwich, Salads, Healthy, Family Meals",$,"1801 4th Ave S, Birmingham, AL, 35233",35233,33.50715,-86.80399
+42,13,"Firehouse Subs (3477  Lowery Parkway, Suite 115)",4.7,23,"Sandwich, Deli",$,"3477  Lowery Parkway, Suite 115, Fultondale, AL, 35068",35068,33.6052125,-86.8056205
+43,9,Taco Bell (2300 Bessemer Rd.),4.1,91,"Burritos, Fast Food, Mexican",$,"2300 Bessemer Rd., Birmingham, AL, 35208",35208,33.4979239,-86.8757924
+44,7,Dreamcakes Bakery,4.9,17,"Bakery, Desserts, Exclusive to Eats",$$,"960 Oxmoor Rd, Birmingham, AL, 35209",35209,33.473785,-86.808536
+45,25,The Baisakhi Dhaba,,,"Indian, Pasta, Pizza",,"1801 4th Ave S, Birmingham, AL, 35233-1944",35233-1944,33.50761,-86.80482
+46,21,Veggie Mania,,,"Vegetarian, Vegan, Indian, Pakistani, Indian Curry",,"1024 20th Street South unit 101, Birmingham, AL, 35205",35205,33.5009,-86.7969
+47,20,Silver Kati,,,"Indian, Vegetarian, Asian, Healthy",$,"1821 N 2nd Ave, Birmingham, AL, 35203",35203,33.5142912,-86.8078778
+48,9,China Master Express,4.6,28,"Chinese, Comfort Food",,"1801 4th Ave S, Birmingham, AL, 35233",35233,33.50761,-86.80482
+49,74,"Pasta La Vista, Baby",,,"Italian, Pasta, Comfort Food",$,"1623 2nd Avenue North, Birmingham, AL, 35203",35203,33.512981,-86.810616
+50,73,Taziki's Mediterranean Café (2737 Highway 280 South),,,"Healthy, Sandwich, Soup",$$,"2737 Highway 280 South, Birmingham, AL, 35223",35223,33.47991,-86.77426
+51,70,China 1,,,"Chinese, Chicken, Noodles",,"357 Walker Chapel Plz, Fultondale, AL, 35068",35068,33.61121,-86.79742
+52,68,Veggie Wonderland,,,"Indian, Vegetarian, Vegan, Indian Curry, Healthy",,"1024 20th Street South Unit 101, Birmingham, AL, 35205",35205,33.5009,-86.7969
+53,65,Chez Lulu,4.3,29,"French, Pizza, Salads, Sandwich, Healthy, Desserts",$,"1911 Cahaba Rd, Birmingham, AL, 35223",35223,33.4955577,-86.7814333
+54,64,Bayleaf Authentic Indian Cuisine,4.7,56,"Indian, Vegetarian, Asian, Healthy",$,"1024 20th St S, 101, Birmingham, AL, 35205",35205,33.5009661,-86.7968513
+55,63,Sushi Village (Crestwood Blvd),4.8,100,"Sushi, Asian, Japanese",$$,"7001 Crestwood Boulevard, Birmingham, AL, 35213",35213,33.52812,-86.72866
+56,61,Great Wall Chinese Restaurant,4.6,100,"Chinese, Seafood, Noodles",,"706 Valley Ave, Birmingham, AL, 35209",35209,33.4764166,-86.8156829
+57,56,Yoe Xpress (28th Ave S),4.5,35,"Chinese, Asian, Cantonese",,"1919 28th Ave S, Birmingham, AL, 35209",35209,33.48093,-86.78783
+58,55,Yoe Express,,,"Chinese, Asian, Asian Fusion",$,"1919 28th Ave S, Homewood, AL, 35209",35209,33.48093,-86.78783
+59,53,Kumo Sushi &amp; Asian,,,"Sushi, Asian, Japanese",$,"835 Odum Rd #107, Gardendale, AL, 35071",35071,33.64613,-86.82696
+60,51,Chuck E. Cheese (500 Old Town Rd),,,Pizza,$,"500 Old Town Rd, Birmingham, AL, 35216",35216,33.419761,-86.798175
+61,50,Magic Wok,4.6,61,"Chinese, Vegetarian, Soup",,"401 19th St S, Birmingham, AL, 35233",35233,33.50805,-86.80287
+62,49,Moon Star Chinese Asian &amp; Wings,4.3,79,"Chinese, Asian",$$,"191 W Valley Ave, Homewood, AL, 35209",35209,33.4648283,-86.83722
+63,44,Sol Azteca,4.6,59,"Mexican, Seafood",$,"1360 Montgomery Hwy 128, Vestavia Hills, AL, 35216",35216,33.4261627,-86.7939687
+64,43,China Garden,4.6,34,"Asian, Seafood, Noodles",,"3102 Allison-Bonnett Memorial Dr, Hueytown, AL, 35023",35023,33.4549,-86.989
+65,42,Biryani Bowl,,,"Indian, Vegetarian, Asian",,"22 Green Springs Highway, Homewood, AL, 35209",35209,33.474182,-86.826475
+66,41,Makarios Kabobs &amp; Grill,4.9,37,"Mediterranean, Greek, Vegetarian",,"940 20th St South, Birmingham, AL, 35205",35205,33.50253,-86.79778
+67,39,Egg roll express,4.2,50,"Asian, Chicken, Chinese",$,"100 Bessemer Super Hwy, Birmingham, AL, 35228",35228,33.46308,-86.91145
+68,40,Los Arcos Mexican Restaurant,4.3,100,"Mexican, Salads, Tacos",$,"7001 Crestwood Blvd, Birmingham, AL, 35210",35210,33.52812,-86.72866
+69,38,New China Town,4.3,100,"Chinese, Asian, Asian Fusion",$,"1020 20th St S, Birmingham, AL, 35205",35205,33.5011135,-86.7969805
+70,35,Fuji Hibachi Express ,4.8,52,"Japanese, Chinese, Asian",$,"790 Montgomery Hwy, Vestavia Hills, AL, 35216",35216,33.444622,-86.792775
+71,34,Sitar,4.3,100,"Indian, Vegetarian, Asian, Healthy",$,"1801 4th Ave S, 115, Birmingham, AL, 35233",35233,33.50724,-86.8037743
+72,32,Red Sea Ethiopian and Mediterranean,4.5,31,"Mediterranean, Greek, Vegetarian",,"22 Green Springs Highway, Birmingham, AL, 35209",35209,33.47422,-86.82647
+73,28,Rice Bowl,4.3,19,"Asian, Chinese, Comfort Food",$,"2808 7th Avenue South, Birmingham, AL, 35233",35233,33.51169,-86.78845
+74,26,Karams Restaurant,4.4,30,"Mediterranean, Desserts, Salads",,"715 18th St N, Birmingham, AL, 35203-2207",35203-2207,33.51961,-86.81257
+75,19,The Purple Onion Deli &amp; Grill (Green Springs Hwy),4.6,100,"Mediterranean, Greek, Vegetarian",,"479 Green Springs Hwy, Birmingham, AL, 35209",35209,33.46236,-86.81865
+76,10,Rock N Roll Sushi (UAB/Downtown),4.6,100,"Asian Fusion, Seafood, Salads",,"420 Richard Arrington Junior Boulevard South, Birmingham, AL, 35233",35233,33.5091,-86.80037
+77,8,New China (2142 Tyler Rd),4.6,34,"Chinese, Soup, Seafood",,"2142 Tyler Rd, Birmingham, AL, 35226",35226,33.41647,-86.84451
+78,7,The Baisakhi Dhaba,,,"Indian, Vegetarian, Asian",,"1801 4th Avenue South, Ste 115, Birmingham, AL, 35233",35233,33.50761,-86.80482
+79,5,The Vegan Bowl,,,"Vegetarian, Vegan, Healthy",,"1801 4th Avenue South, Ste 115, Birmingham, AL, 35233",35233,33.50761,-86.80482
+80,4,Vegans Vessel,,,"Indian, Vegetarian, Salads",,"1801 4th Avenue South, Ste 115, Birmingham, AL, 35233",35233,33.50761,-86.80482
+81,3,Cafe Gunpowder,,,"Indian, Vegetarian, Asian",,"1801 4th Avenue South, Ste 115, Birmingham, AL, 35233",35233,33.50761,-86.80482
+82,161,Shrimp Basket (Gardendale),,,"Seafood, American, Southern",$,"550 Fieldstown Rd, Gardendale, AL, 35071",35071,33.6527092,-86.8200246
+83,160,River Fish Market,,,"Seafood, American, Drinks",,"1928 Vanderbilt Rd, Birmingham, AL, 35234",35234,33.54945,-86.7901
+84,159,Fried Green Tomato's,,,"Soul Food, American, Southern",$,"1615 Montgomery Hwy, 132, Birmingham, AL, 35216",35216,33.3984,-86.80491
+85,158,The Grill at Iron City,,,"Burgers, American, Sandwiches, Comfort Food, Southern",$,"2208 6th Avenue South, Birmingham, AL, 35233",35233,33.5089462,-86.7977206
+86,157,SOCU Southern Kitchen + Oyster Bar Birmingham,,,"Seafood, American, Southern",,"1821 2nd Avenue North, Birmingham, AL, 35203",35203,33.51416,-86.80798
+87,156,Cajun Bistro Downtown,4.0,30,"Seafood, American, Southern",,"1905 Park Place, Birmingham, AL, 35203",35203,33.51918,-86.81036
+88,155,Bobby Carl's Table ,,,"American, Southern, Comfort Food",$$,"2031 Cahaba Rd, Mountain Brook, AL, 35223",35223,33.4946629,-86.7812689
+89,154,Sugar Daddys BBQ,,,"BBQ, American, Burgers",$,"1486 Minor Parkway, Birmingham, AL, 35224",35224,33.55141,-86.92616

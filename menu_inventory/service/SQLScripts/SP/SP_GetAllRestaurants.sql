@@ -1,0 +1,8 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS SP_GetAllRestaurants $$
+CREATE PROCEDURE SP_GetAllRestaurants()
+BEGIN
+	SELECT * FROM Restaurants;
+END$$
+
+DELIMITER ;
