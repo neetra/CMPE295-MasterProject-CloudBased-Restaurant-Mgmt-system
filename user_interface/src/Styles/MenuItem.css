@@ -1,0 +1,12 @@
+.menu-item-actions {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.menu-item {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}

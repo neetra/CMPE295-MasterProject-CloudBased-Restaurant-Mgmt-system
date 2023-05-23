@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.home-button-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  gap: 48px;
+}
+
+.my-header-img {
+  background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+	overflow: hidden;
+  min-height: 150px;
+}
+
+.restaurant-name-container {
+  margin-top: 24px;
+}
+
+.home-add-menu-item-button-container {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+/* CSS for cart */
+.cart {
+  width: 100%;
+  max-width: 500px;
+  margin: 16px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  text-align: left;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 16px 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}

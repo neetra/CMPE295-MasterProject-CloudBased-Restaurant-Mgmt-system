@@ -1,0 +1,180 @@
+/* Set a background color for the entire page */
+/* html, body, .container {
+	background-color: #f2f2f2;
+} */
+
+/* .App {
+  text-align: center;
+} */
+
+/* Set font and text color */
+/* .container, p, a, a:visited, input {
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+  align-items: center;
+} */
+
+/* Add some margin to the container */
+/* .container {
+	margin-top: 50px;
+  align-self: center;
+} */
+
+/* Add some margin to the main content */
+/* main {
+	margin-top: 50px;
+} */
+
+/* Style the reservation form */
+/* form {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	transition: all 0.2s ease;
+  height: 550px;
+  Width: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content:space-around;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  flex-direction: column;
+} */
+
+/* form:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+} */
+
+/* label {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: bold;
+  line-height: 150%;
+  text-align: center;
+} */
+
+/* input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="time"],
+input[type="date"],
+textarea {
+	width: 100%;
+	padding: 10px;
+  margin:auto;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease;
+} */
+
+/* input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+input[type="time"]:hover,
+input[type="date"]:hover,
+textarea:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+} */
+
+/* input[type="submit"] {
+	background-color: #474850;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #5B5D68;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+} */
+
+/* Style for the date, time, and capacity fields */
+.date-time-container {
+  display: block;
+}
+
+.date-time-container label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.date-time-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.date-time-container select:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.date-time-container select:last-child {
+  margin-left: 0;
+}
+
+.table-reserve-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 70%;
+	padding: 2rem;
+	border-radius: 12px;
+	/* Light gray easier on the eyes */
+	background-color: #f5f5f5;
+	box-shadow: 1px 1px 21px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 600px) {
+	.table-reserve-form {
+		width: 60%;
+	}
+}
+
+@media (min-width: 960px) {
+	.table-reserve-form {
+		width: 50%;
+	}
+}
+
+@media (min-width: 1280px) {
+	.table-reserve-form {
+		width: 40%;
+	}
+}
+
+.table-reserve-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.table-reserve-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}

@@ -1,3 +1,5 @@
 
 menu_inventory/service/.venv/*
-menu_inventory/service/__pycache__/*
+
+
+*.pyc

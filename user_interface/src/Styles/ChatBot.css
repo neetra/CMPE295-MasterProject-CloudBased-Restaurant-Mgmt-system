@@ -1,0 +1,86 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    max-height: 65vh;
+    position: fixed;
+    bottom: 90px;
+    left: 50px;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    white-space: pre-wrap;
+    width: 80%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .chat-container {
+        width: 50%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .chat-container {
+        width: 40%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .chat-container {
+        width: 35%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .chat-container {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .chat-container {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .chat-container {
+        width: 20%;
+    }
+}
+
+.chat-header {
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    /* background: #f9f6f2; */
+    background: #3f51b5;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chat-text-container {
+    flex-grow: 1;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+}

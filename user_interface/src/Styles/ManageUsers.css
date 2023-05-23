@@ -1,0 +1,9 @@
+.view-users-container {
+    display: flex;
+    justify-content: center;
+}
+
+.view-users-pagination {
+    width: 75%;
+    margin-bottom: 100px;
+}

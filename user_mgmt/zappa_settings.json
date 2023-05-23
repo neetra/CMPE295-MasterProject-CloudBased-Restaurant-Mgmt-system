@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "service.UserManagement.app",
+        "aws_region": "us-east-1",
+        "profile_name": "rootuser",
+        "project_name": "user-mgmt",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-55r74n5zi"
+    }
+}

@@ -1,0 +1,114 @@
+ /* .form-group {
+    margin-bottom: 20px;
+    /* max-width: 300px; */
+    /* position: absolute;
+    top: 50px;
+    left: 50%; */
+    /* transform: translateX(-50%); */
+    /* max-width: 200px; */
+    /* margin: 0 auto; */
+
+  
+/*  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 12px 15px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+
+  #card-element {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #card-element .StripeElement {
+    height: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    /* width: 100%; 
+    color: #32325d;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px 0px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px 0px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
+    /* ::placeholder { 
+      color: #aab7c4;
+    }
+    :-ms-input-placeholder {
+      color: #aab7c4;
+    }
+    ::-ms-input-placeholder {
+      color: #aab7c4;
+    } */
+  /* } */
+  
