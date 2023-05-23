@@ -1,0 +1,87 @@
+pipeline {
+    agent any
+  
+    environment {
+    GIT_URL = 'https://github.com/SJSU-Objective-Oriented-People/paymentservice.git'
+    TERRAFORM_GIT_URL = 'https://github.com/mayurigupta01/terraform-dev.git'
+    TERRAFORM_BRANCH = 'np-dev'
+    GIT_BRANCH = 'dev'
+    DOCKER_IMAGE_NAME = "paymentservice"
+    DOCKERFILE_PATH = "dockerfile"
+    aws_account_id  = "050101231408"
+    aws_region      = "us-west-1"
+    repository_name = "paymentservice-api"
+      }
+  
+    stages {
+     stage('Git Checkout') {
+      steps {
+          checkout([$class: 'GitSCM', branches: [[name: "${env.GIT_BRANCH}"]], 
+          userRemoteConfigs:[[credentialsId: 'github-creds', url: "${env.GIT_URL}"]]])
+          echo 'Checked out SCM repo'
+                sh '''#!/bin/bash
+                    pwd
+                    ls -al
+                    echo "Current User"
+                    id
+                '''
+      }
+    }
+    
+     stage('Build Docker Image') {
+      steps {
+        script {
+          docker.build(env.DOCKER_IMAGE_NAME, "-f ${env.DOCKERFILE_PATH} .")
+        }
+      }
+    }
+     stage('Push to ECR') {
+      steps {
+      withCredentials([
+          [$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', awsSecretKeyVariable: 'AWS_SECRET_ACCESS_KEY', credentialsId: 'rms-aws-creds']]) {
+        sh 'aws ecr get-login-password --region ${aws_region}  | docker login --username AWS --password-stdin ${aws_account_id}.dkr.ecr.${aws_region}.amazonaws.com'
+        sh 'docker tag ${DOCKER_IMAGE_NAME}:latest ${aws_account_id}.dkr.ecr.${aws_region}.amazonaws.com/${repository_name}:latest'
+        sh 'docker push ${aws_account_id}.dkr.ecr.${aws_region}.amazonaws.com/${repository_name}:latest'
+    }
+  }
+}
+stage('Terraform git checkout') {
+      steps {
+          checkout([$class: 'GitSCM', branches: [[name: "${env.TERRAFORM_BRANCH}"]], 
+          userRemoteConfigs:[[credentialsId: 'github-creds', url: "${env.TERRAFORM_GIT_URL}"]]])
+          echo 'Checked out SCM repo'
+                sh '''#!/bin/bash
+                    pwd
+                    ls -al
+                    echo "Current User"
+                    id
+                '''
+      }
+}
+
+   stage('Install Terraform') {
+    steps {
+        sh 'sudo -n curl -O https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_linux_amd64.zip'
+        sh 'unzip -t terraform_1.0.9_linux_amd64.zip'
+        sh 'ls -al'
+        sh 'sudo -n unzip terraform_1.0.9_linux_amd64.zip'
+        sh 'sudo -n mv terraform /usr/local/bin'
+     }
+   }
+   
+   stage('Deploy to EC2') {
+            steps {
+                sh 'terraform init'
+                 sh 'terraform apply -auto-approve -target=module.ec2appserver'
+                 script {
+                  env.appserver_ip = sh(
+                  script: 'terraform output appserver_ip',
+                  returnStdout: true
+                  ).trim()
+               }
+                
+            }
+        }
+    
+    }
+ }

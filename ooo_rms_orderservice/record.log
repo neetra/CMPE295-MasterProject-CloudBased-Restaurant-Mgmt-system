@@ -1,0 +1,26 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.4:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 694-022-409
+INFO:werkzeug:192.168.1.4 - - [27/Mar/2023 10:53:59] "GET /order/home HTTP/1.1" 200 -
+DEBUG:app:Table_order table is updated successfully
+DEBUG:app:Order details table is updated successfully
+DEBUG:app:Order details table is updated successfully
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:54:25] "POST /order/createOrder HTTP/1.1" 200 -
+DEBUG:app:44.00
+DEBUG:app:Table_order table is updated successfully
+DEBUG:app:Order details table is updated successfully
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:54:40] "PUT /order/updateOrder HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [27/Mar/2023 10:54:47] "GET /order/getOrderInfo/order_436036 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:55:11] "GET /order/getOrderItemsInfo/order_436036 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.4:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 694-022-409
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.4:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 694-022-409

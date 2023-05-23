@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="933337d6-be2e-4d2f-aa7a-cf448f375b89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/.terraform.lock.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/installations.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/dynamodb/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/dynamodb/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/dynamodb/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/ec2/install_jenkins.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/ec2/install_vault.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/ec2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/ec2/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/ec2/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/igw/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/igw/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/igw/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/natgw/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/natgw/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/natgw/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/r53/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/r53/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/r53/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/rds/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/rds/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/rds/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/s3/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/s3/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/s3/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/secretmanager/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/secretmanager/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/secretmanager/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/sg/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/sg/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/sg/variable.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/subnets/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/subnets/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/subnets/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/vpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/vpc/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/vpc/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/modules/vpc/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/postgres_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../terraform-dev/variables.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2N6nwDyOWCb8qpRfcKG8wXCamjJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="paymentservice" type="Python.FlaskServer">
+      <module name="paymentservice" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="933337d6-be2e-4d2f-aa7a-cf448f375b89" name="Changes" comment="" />
+      <created>1678993636483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678993636483</updated>
+      <workItem from="1678993639417" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

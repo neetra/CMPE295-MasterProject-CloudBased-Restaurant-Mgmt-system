@@ -1,0 +1,480 @@
+2023-03-16 12:32:36,627 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-03-16 12:32:36,627 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-16 12:32:36,632 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-16 12:32:36,729 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-16 12:32:36,736 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-03-16 12:35:23,604 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/app.py', reloading
+2023-03-16 12:35:23,634 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-16 12:35:23,751 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-16 12:35:23,760 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-03-16 13:07:50,091 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-03-16 13:07:50,092 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-16 13:07:50,098 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-16 13:07:50,231 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-16 13:07:50,238 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-03-16 13:09:11,894 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [16/Mar/2023 13:09:11] "[35m[1mPOST /charge HTTP/1.1[0m" 500 -
+2023-03-16 13:11:31,747 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.4 - - [16/Mar/2023 13:11:31] "[35m[1mPOST /charge HTTP/1.1[0m" 500 -
+2023-03-16 13:17:31,281 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-03-16 13:17:31,282 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-16 13:17:31,291 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-16 13:17:31,429 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-16 13:17:31,437 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-03-16 13:17:38,110 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [16/Mar/2023 13:17:38] "GET / HTTP/1.1" 200 -
+2023-03-16 13:17:38,270 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.4 - - [16/Mar/2023 13:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 21:31:36,209 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-17 21:31:36,209 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-17 21:31:36,210 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:31:36,538 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:31:36,553 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:33:48,421 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:33:48,422 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount[0]=164.00&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:33:48,447 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:33:48,678 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 359
+2023-04-17 21:33:48,680 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:33:48,680 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_invalid_integer",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",\n    "message": "Invalid integer: {:\\"0\\"=\\u003E\\"164.00\\"}",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_8UnGczsu30r90r?t=1681792428",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:33:48,681 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_8UnGczsu30r90r message='Dashboard link for request'
+2023-04-17 21:33:48,681 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_invalid_integer error_message='Invalid integer: {:"0"=>"164.00"}' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:33:48,683 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:33:48] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:34:26,706 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:34:26,847 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:34:27,551 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:34:27,563 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:34:32,710 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:34:32,796 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:34:33,246 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:34:33,254 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:34:59,089 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:34:59,165 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:35:03,781 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:35:03,802 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:35:24,442 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:35:24,535 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:35:25,022 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:35:25,038 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:35:28,266 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:35:28] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:35:45,768 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:35:45,844 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:35:46,486 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:35:46,495 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:35:48,459 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:35:48,459 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:35:48,482 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:35:48,738 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 332
+2023-04-17 21:35:48,739 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:35:48,739 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_missing",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",\n    "message": "Missing required param: amount.",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_T7pS1H0gKeQ0ds?t=1681792548",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:35:48,740 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_T7pS1H0gKeQ0ds message='Dashboard link for request'
+2023-04-17 21:35:48,740 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_missing error_message='Missing required param: amount.' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:35:48,741 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:35:48] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:35:59,081 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:35:59,158 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:35:59,630 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:35:59,640 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:36:02,208 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:36:02,208 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:36:02,211 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:36:02,474 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 332
+2023-04-17 21:36:02,475 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:36:02,475 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_missing",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",\n    "message": "Missing required param: amount.",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oRmRJiSwF7sFPa?t=1681792562",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:36:02,475 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_oRmRJiSwF7sFPa message='Dashboard link for request'
+2023-04-17 21:36:02,475 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_missing error_message='Missing required param: amount.' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:36:02,476 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:36:02] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:37:08,141 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-17 21:37:08,142 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-17 21:37:08,144 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:37:08,561 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:37:08,566 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:37:11,969 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:37:11,969 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:37:11,990 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:37:12,194 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 332
+2023-04-17 21:37:12,195 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:37:12,195 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_missing",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",\n    "message": "Missing required param: amount.",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_CL7sd8uVfZfQDu?t=1681792632",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:37:12,195 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_CL7sd8uVfZfQDu message='Dashboard link for request'
+2023-04-17 21:37:12,195 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_missing error_message='Missing required param: amount.' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:37:12,197 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:37:12] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:37:25,112 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:37:25,171 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:37:25,700 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:37:25,712 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:37:29,886 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:37:29,886 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:37:29,889 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:37:30,109 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 332
+2023-04-17 21:37:30,109 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:37:30,109 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_missing",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",\n    "message": "Missing required param: amount.",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_h2FzAmJu11wQGf?t=1681792650",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:37:30,109 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_h2FzAmJu11wQGf message='Dashboard link for request'
+2023-04-17 21:37:30,109 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_missing error_message='Missing required param: amount.' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:37:30,110 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:37:30] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:37:55,725 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:37:55,807 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:37:56,293 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:37:56,302 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:38:01,406 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:38:01,407 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount[0]=164.00&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:38:01,437 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:38:01,676 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 359
+2023-04-17 21:38:01,677 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:38:01,677 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "code": "parameter_invalid_integer",\n    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",\n    "message": "Invalid integer: {:\\"0\\"=\\u003E\\"164.00\\"}",\n    "param": "amount",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_12DQE7mtshkBQD?t=1681792681",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:38:01,677 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_12DQE7mtshkBQD message='Dashboard link for request'
+2023-04-17 21:38:01,677 INFO stripe Thread-2 (process_request_thread) : error_code=parameter_invalid_integer error_message='Invalid integer: {:"0"=>"164.00"}' error_param=amount error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:38:01,678 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:38:01] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:38:18,060 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:38:18,147 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:38:18,611 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:38:18,619 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:38:26,849 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:38:26,900 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:38:27,396 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:38:27,409 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:38:31,701 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:38:31] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:40:49,526 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:40:49,630 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:40:50,245 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:40:50,255 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:40:53,627 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:40:53] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:41:12,908 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:41:12,994 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:41:13,538 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:41:13,543 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:41:27,951 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:41:28,065 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:41:28,650 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:41:28,656 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:41:30,136 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:41:30,137 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=164&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:41:30,160 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:41:30,473 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-17 21:41:30,474 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:41:30,474 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3My6MAFjzCoO1teW0mzjNeVe",\n  "object": "payment_intent",\n  "amount": 164,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6MAFjzCoO1teW0mzjNeVe_secret_am6CPAPfQLUcI85CjvLXrLt3n",\n  "confirmation_method": "automatic",\n  "created": 1681792890,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:41:30,475 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_mFoLp54UZhdDG2 message='Dashboard link for request'
+2023-04-17 21:41:30,930 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:41:30] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 21:42:20,727 INFO stripe Thread-3 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:42:20,728 DEBUG stripe Thread-3 (process_request_thread) : api_version=None message='Post details' post_data=amount=164&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:42:20,736 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:42:21,041 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-17 21:42:21,042 INFO stripe Thread-3 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:42:21,043 DEBUG stripe Thread-3 (process_request_thread) : body='{\n  "id": "pi_3My6MyFjzCoO1teW1iCqLtjO",\n  "object": "payment_intent",\n  "amount": 164,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6MyFjzCoO1teW1iCqLtjO_secret_XrA9ElZmffWgG0wxVmFpSLW0S",\n  "confirmation_method": "automatic",\n  "created": 1681792940,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:42:21,043 DEBUG stripe Thread-3 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_fJKMXwHV5efHoX message='Dashboard link for request'
+2023-04-17 21:42:21,535 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:42:21] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 21:43:49,063 INFO stripe Thread-4 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:43:49,064 DEBUG stripe Thread-4 (process_request_thread) : api_version=None message='Post details' post_data=amount=164&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:43:49,097 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:43:49,435 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-17 21:43:49,436 INFO stripe Thread-4 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:43:49,436 DEBUG stripe Thread-4 (process_request_thread) : body='{\n  "id": "pi_3My6OPFjzCoO1teW1tarGNzH",\n  "object": "payment_intent",\n  "amount": 164,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6OPFjzCoO1teW1tarGNzH_secret_fnu2AOFU2c39qhvhKuDP3GkWB",\n  "confirmation_method": "automatic",\n  "created": 1681793029,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:43:49,436 DEBUG stripe Thread-4 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_CQpUXqey22cKeq message='Dashboard link for request'
+2023-04-17 21:43:49,919 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:43:49] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 21:44:32,553 INFO stripe Thread-5 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:44:32,559 DEBUG stripe Thread-5 (process_request_thread) : api_version=None message='Post details' post_data=amount=164&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:44:32,568 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:44:32,895 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-17 21:44:32,896 INFO stripe Thread-5 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:44:32,896 DEBUG stripe Thread-5 (process_request_thread) : body='{\n  "id": "pi_3My6P6FjzCoO1teW0TjIzl77",\n  "object": "payment_intent",\n  "amount": 164,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6P6FjzCoO1teW0TjIzl77_secret_tce7tCJcaQ52kaq59mbE0D6bv",\n  "confirmation_method": "automatic",\n  "created": 1681793072,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:44:32,896 DEBUG stripe Thread-5 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_63l8wAinny9PhG message='Dashboard link for request'
+2023-04-17 21:44:33,414 INFO werkzeug Thread-5 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:44:33] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 21:47:34,290 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:47:34,521 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:47:35,343 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:47:35,357 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:48:05,166 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:48:05,265 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:48:05,770 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:48:05,775 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:48:24,459 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:48:24,459 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=48&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:48:24,487 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:48:24,780 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 461
+2023-04-17 21:48:24,782 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:48:24,782 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "error": {\n    "message": "No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types",\n    "param": "payment_method_types",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rbwNGoHgT9Uia9?t=1681793304",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:48:24,782 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_rbwNGoHgT9Uia9 message='Dashboard link for request'
+2023-04-17 21:48:24,783 INFO stripe Thread-2 (process_request_thread) : error_code=None error_message='No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types' error_param=payment_method_types error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:48:24,785 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:48:24] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:50:16,894 INFO stripe Thread-3 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:50:16,897 DEBUG stripe Thread-3 (process_request_thread) : api_version=None message='Post details' post_data=amount=59&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:50:16,980 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:50:17,414 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-17 21:50:17,415 INFO stripe Thread-3 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:50:17,415 DEBUG stripe Thread-3 (process_request_thread) : body='{\n  "id": "pi_3My6UfFjzCoO1teW0QGc6Zff",\n  "object": "payment_intent",\n  "amount": 59,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6UfFjzCoO1teW0QGc6Zff_secret_nrnhfP5U9NrEmkHTlp6XP9LP4",\n  "confirmation_method": "automatic",\n  "created": 1681793417,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:50:17,415 DEBUG stripe Thread-3 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_EBwN5sEDg3xvGa message='Dashboard link for request'
+2023-04-17 21:50:18,237 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:50:18] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 21:51:13,402 INFO stripe Thread-4 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:51:13,403 DEBUG stripe Thread-4 (process_request_thread) : api_version=None message='Post details' post_data=amount=44&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:51:13,434 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:51:13,693 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 461
+2023-04-17 21:51:13,695 INFO stripe Thread-4 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:51:13,695 DEBUG stripe Thread-4 (process_request_thread) : body='{\n  "error": {\n    "message": "No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types",\n    "param": "payment_method_types",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_bpXLHYlFNRR1hJ?t=1681793473",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:51:13,695 DEBUG stripe Thread-4 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_bpXLHYlFNRR1hJ message='Dashboard link for request'
+2023-04-17 21:51:13,695 INFO stripe Thread-4 (process_request_thread) : error_code=None error_message='No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types' error_param=payment_method_types error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:51:13,697 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:51:13] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:51:33,000 INFO stripe Thread-5 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:51:33,004 DEBUG stripe Thread-5 (process_request_thread) : api_version=None message='Post details' post_data=amount=18&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:51:33,029 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:51:33,284 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 400 461
+2023-04-17 21:51:33,287 INFO stripe Thread-5 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-04-17 21:51:33,288 DEBUG stripe Thread-5 (process_request_thread) : body='{\n  "error": {\n    "message": "No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types",\n    "param": "payment_method_types",\n    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kcZavG0YPaoStD?t=1681793493",\n    "type": "invalid_request_error"\n  }\n}\n' message='API response body'
+2023-04-17 21:51:33,288 DEBUG stripe Thread-5 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_kcZavG0YPaoStD message='Dashboard link for request'
+2023-04-17 21:51:33,288 INFO stripe Thread-5 (process_request_thread) : error_code=None error_message='No valid payment method types for this Payment Intent. Please ensure that you have activated payment methods compatible with your chosen currency in your dashboard (https://dashboard.stripe.com/settings/payment_methods) or specify payment_method_types' error_param=payment_method_types error_type=invalid_request_error message='Stripe API error received'
+2023-04-17 21:51:33,288 INFO werkzeug Thread-5 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:51:33] "[31m[1mPOST /create-payment-intent HTTP/1.1[0m" 403 -
+2023-04-17 21:55:06,118 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 21:55:06,354 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 21:55:07,019 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 21:55:07,029 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 21:56:03,102 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 21:56:03,103 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=59&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 21:56:03,136 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 21:56:03,475 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-17 21:56:03,476 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 21:56:03,476 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3My6aFFjzCoO1teW0jXs01wb",\n  "object": "payment_intent",\n  "amount": 59,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6aFFjzCoO1teW0jXs01wb_secret_xGxQvnzNEkH3nuHHblWXPEaxn",\n  "confirmation_method": "automatic",\n  "created": 1681793763,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 21:56:03,476 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_rsEHXyENeh85rJ message='Dashboard link for request'
+2023-04-17 21:56:04,215 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 21:56:04] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 22:02:20,505 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-17 22:02:20,506 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-17 22:02:20,507 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 22:02:20,911 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 22:02:20,921 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 22:02:46,910 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-17 22:02:46,915 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=74&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-17 22:02:46,950 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-17 22:02:47,292 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-17 22:02:47,293 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-17 22:02:47,293 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3My6glFjzCoO1teW0XHSqfG0",\n  "object": "payment_intent",\n  "amount": 74,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3My6glFjzCoO1teW0XHSqfG0_secret_bZ68aML3MEC3iYhKjehG5bNE1",\n  "confirmation_method": "automatic",\n  "created": 1681794167,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-17 22:02:47,294 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_P6MxS7HGyiWL7v message='Dashboard link for request'
+2023-04-17 22:02:48,112 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [17/Apr/2023 22:02:48] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-17 22:04:40,082 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 22:04:40,185 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 22:04:40,768 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 22:04:40,773 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-17 22:06:56,543 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-17 22:06:56,613 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-17 22:06:57,152 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-17 22:06:57,164 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 20:21:01,836 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-18 20:21:01,837 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-18 20:21:01,839 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 20:21:02,284 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 20:21:02,295 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:48:58,542 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-18 22:48:58,543 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-18 22:48:58,547 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:48:58,906 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:48:58,956 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:51:01,223 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-18 22:51:01,225 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=113&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-18 22:51:01,270 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-18 22:51:01,563 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-18 22:51:01,565 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-18 22:51:01,565 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3MyTuzFjzCoO1teW0vk2Pebs",\n  "object": "payment_intent",\n  "amount": 113,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3MyTuzFjzCoO1teW0vk2Pebs_secret_pS2WdvRgfTHzPLyIfPsI3B2A2",\n  "confirmation_method": "automatic",\n  "created": 1681883461,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-18 22:51:01,566 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_gpJrA6CqRetlFs message='Dashboard link for request'
+2023-04-18 22:51:02,850 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [18/Apr/2023 22:51:02] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-18 22:52:21,294 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:52:21,416 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:52:22,022 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:52:22,028 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:52:27,171 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:52:27,210 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:52:27,708 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:52:27,714 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:54:06,483 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:54:06,555 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:54:07,118 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:54:07,124 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:54:15,340 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:54:15,386 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:54:15,852 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:54:15,859 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:54:31,898 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-18 22:54:31,899 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=113&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-18 22:54:31,924 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-18 22:54:32,232 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1394
+2023-04-18 22:54:32,233 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-18 22:54:32,233 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3MyTyOFjzCoO1teW14VfHQGs",\n  "object": "payment_intent",\n  "amount": 113,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3MyTyOFjzCoO1teW14VfHQGs_secret_zXIFkcmvzudSmMSusQtXX77Hu",\n  "confirmation_method": "automatic",\n  "created": 1681883672,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-18 22:54:32,233 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_kgrhZNnwMBECVm message='Dashboard link for request'
+2023-04-18 22:54:33,340 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [18/Apr/2023 22:54:33] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-18 22:55:26,426 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:55:26,509 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:55:27,115 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:55:27,123 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-18 22:56:04,493 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-18 22:56:04,537 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-18 22:56:05,008 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-18 22:56:05,015 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:40:38,942 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-25 10:40:38,944 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-25 10:40:38,947 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:40:39,330 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:40:39,342 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:46:56,628 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:46:56,629 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:46:56,655 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:46:56,974 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:46:56,976 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:46:56,976 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0px6FjzCoO1teW0iVK5LjD",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0px6FjzCoO1teW0iVK5LjD_secret_dRzz0vTmYoJXH9Xno6TcYcfUB",\n  "confirmation_method": "automatic",\n  "created": 1682444816,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:46:56,977 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_Zw4LdqfG4qpFLZ message='Dashboard link for request'
+2023-04-25 10:46:58,106 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:46:58] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:49:14,954 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:49:15,021 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:49:15,553 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:49:15,559 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:49:28,961 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:49:29,014 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:49:29,429 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:49:29,436 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:50:15,104 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:50:15,158 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:50:15,622 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:50:15,630 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:50:40,467 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:50:40,519 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:50:41,038 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:50:41,054 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:50:54,501 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:50:54,546 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:50:55,054 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:50:55,063 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:51:21,103 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:51:21,162 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:51:21,600 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:51:21,608 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:51:59,374 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:51:59,375 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:51:59,395 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:51:59,710 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:51:59,711 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:51:59,711 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q1zFjzCoO1teW1L2NV74l",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q1zFjzCoO1teW1L2NV74l_secret_bFuCjPnAREc1JcxJoA14K2Kup",\n  "confirmation_method": "automatic",\n  "created": 1682445119,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:51:59,712 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_RLGiBYwJRS4bvS message='Dashboard link for request'
+2023-04-25 10:52:00,922 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:52:00] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:53:01,273 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+2023-04-25 10:53:01,274 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-25 10:53:01,275 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:53:01,672 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:53:01,680 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:53:21,332 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:53:21,371 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:53:21,794 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:53:21,800 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:53:32,231 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:53:32,231 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:53:32,255 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:53:32,579 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:53:32,580 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:53:32,580 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q3UFjzCoO1teW1XevYd7P",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q3UFjzCoO1teW1XevYd7P_secret_bUACowQPXSqfgslQ0JAE2ynsG",\n  "confirmation_method": "automatic",\n  "created": 1682445212,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:53:32,581 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_FyhqNVlkRB5YJD message='Dashboard link for request'
+2023-04-25 10:53:33,742 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:53:33] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:53:49,785 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:53:49,836 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:53:50,252 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:53:50,258 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:53:56,840 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:53:56,840 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:53:56,844 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:53:57,184 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:53:57,185 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:53:57,185 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q3tFjzCoO1teW1BcGnYGf",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q3tFjzCoO1teW1BcGnYGf_secret_RDTzGLG2Drwk82UVSxesGcy4Z",\n  "confirmation_method": "automatic",\n  "created": 1682445237,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:53:57,186 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_7hFBZXXUSdueGW message='Dashboard link for request'
+2023-04-25 10:53:58,109 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:53:58] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:56:31,344 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:56:31,398 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:56:31,909 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:56:31,916 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:56:32,987 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:56:33,025 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:56:33,371 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:56:33,379 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:56:45,734 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:56:45,783 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:56:46,191 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:56:46,211 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:56:51,343 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:56:51,344 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:56:51,371 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:56:51,712 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:56:51,713 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:56:51,713 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q6hFjzCoO1teW1D9NuV8w",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q6hFjzCoO1teW1D9NuV8w_secret_Cmk1PAfXaCCjmyOcA4ZvearVS",\n  "confirmation_method": "automatic",\n  "created": 1682445411,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:56:51,714 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_88vzZXNrrodm9Q message='Dashboard link for request'
+2023-04-25 10:56:52,804 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:56:52] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:58:26,527 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:58:26,586 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:58:27,038 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:58:27,044 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:58:31,080 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:58:31,080 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:58:31,105 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:58:31,432 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:58:31,432 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:58:31,432 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q8JFjzCoO1teW06uBoy0k",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q8JFjzCoO1teW06uBoy0k_secret_ANcHwBbJZQKdsPRwFxdI9N8Gi",\n  "confirmation_method": "automatic",\n  "created": 1682445511,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:58:31,433 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_oRxsdvPJ200L3f message='Dashboard link for request'
+2023-04-25 10:58:32,588 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:58:32] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:58:45,708 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:58:45,755 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:58:46,167 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:58:46,175 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:58:50,964 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:58:50,964 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:58:50,968 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:58:51,290 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:58:51,292 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:58:51,292 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q8dFjzCoO1teW003da2m8",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q8dFjzCoO1teW003da2m8_secret_dpVCJjY5BxWNTGCfdN56xbkS5",\n  "confirmation_method": "automatic",\n  "created": 1682445531,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:58:51,292 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_QuQ4zbBtSeXanN message='Dashboard link for request'
+2023-04-25 10:58:52,542 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:58:52] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:59:25,745 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:59:25,800 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:59:26,258 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:59:26,266 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-04-25 10:59:31,929 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-04-25 10:59:31,929 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=68&currency=usd&automatic_payment_methods[enabled]=True
+2023-04-25 10:59:31,933 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-04-25 10:59:32,262 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-04-25 10:59:32,264 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-04-25 10:59:32,264 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N0q9IFjzCoO1teW0pndkDJi",\n  "object": "payment_intent",\n  "amount": 68,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N0q9IFjzCoO1teW0pndkDJi_secret_qqtZdGLko9jBvpaJhq4me4lQ1",\n  "confirmation_method": "automatic",\n  "created": 1682445572,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-04-25 10:59:32,264 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_quSbv6TNjzTerZ message='Dashboard link for request'
+2023-04-25 10:59:33,793 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.4 - - [25/Apr/2023 10:59:33] "POST /create-payment-intent HTTP/1.1" 200 -
+2023-04-25 10:59:42,893 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/paymentservice/paymentserviceapi/routes.py', reloading
+2023-04-25 10:59:42,944 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-25 10:59:43,341 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-25 10:59:43,346 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-05-04 18:14:38,192 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.6:8080
+2023-05-04 18:14:38,193 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-05-04 18:14:38,194 INFO werkzeug MainThread :  * Restarting with stat
+2023-05-04 18:14:38,543 WARNING werkzeug MainThread :  * Debugger is active!
+2023-05-04 18:14:38,554 INFO werkzeug MainThread :  * Debugger PIN: 910-158-529
+2023-05-04 21:42:07,247 INFO stripe Thread-2 (process_request_thread) : message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-05-04 21:42:07,248 DEBUG stripe Thread-2 (process_request_thread) : api_version=None message='Post details' post_data=amount=81&currency=usd&automatic_payment_methods[enabled]=True
+2023-05-04 21:42:07,271 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.stripe.com:443
+2023-05-04 21:42:07,678 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.stripe.com:443 "POST /v1/payment_intents HTTP/1.1" 200 1393
+2023-05-04 21:42:07,680 INFO stripe Thread-2 (process_request_thread) : message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-05-04 21:42:07,680 DEBUG stripe Thread-2 (process_request_thread) : body='{\n  "id": "pi_3N4GT5FjzCoO1teW0vQ2YKkf",\n  "object": "payment_intent",\n  "amount": 81,\n  "amount_capturable": 0,\n  "amount_details": {\n    "tip": {}\n  },\n  "amount_received": 0,\n  "application": null,\n  "application_fee_amount": null,\n  "automatic_payment_methods": {\n    "enabled": true\n  },\n  "canceled_at": null,\n  "cancellation_reason": null,\n  "capture_method": "automatic",\n  "client_secret": "pi_3N4GT5FjzCoO1teW0vQ2YKkf_secret_813CZrcomvChJrORBjFOVt1f9",\n  "confirmation_method": "automatic",\n  "created": 1683261727,\n  "currency": "usd",\n  "customer": null,\n  "description": null,\n  "invoice": null,\n  "last_payment_error": null,\n  "latest_charge": null,\n  "livemode": false,\n  "metadata": {},\n  "next_action": null,\n  "on_behalf_of": null,\n  "payment_method": null,\n  "payment_method_options": {\n    "card": {\n      "installments": null,\n      "mandate_options": null,\n      "network": null,\n      "request_three_d_secure": "automatic"\n    },\n    "cashapp": {},\n    "link": {\n      "persistent_token": null\n    }\n  },\n  "payment_method_types": [\n    "card",\n    "link",\n    "cashapp"\n  ],\n  "processing": null,\n  "receipt_email": null,\n  "review": null,\n  "setup_future_usage": null,\n  "shipping": null,\n  "source": null,\n  "statement_descriptor": null,\n  "statement_descriptor_suffix": null,\n  "status": "requires_payment_method",\n  "transfer_data": null,\n  "transfer_group": null\n}' message='API response body'
+2023-05-04 21:42:07,681 DEBUG stripe Thread-2 (process_request_thread) : link=https://dashboard.stripe.com/test/logs/req_LuBp2YRc0AUka9 message='Dashboard link for request'
+2023-05-04 21:42:09,728 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.6 - - [04/May/2023 21:42:09] "POST /create-payment-intent HTTP/1.1" 200 -

@@ -1,0 +1,836 @@
+2023-02-16 19:08:39,409 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-16 19:08:39,409 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-16 19:08:39,410 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-16 19:08:40,364 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-16 19:08:40,381 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-16 19:10:06,821 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-16 19:10:06,821 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-16 19:10:06,822 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-16 19:10:07,590 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-16 19:10:07,603 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-16 19:10:15,855 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Feb/2023 19:10:15] "GET / HTTP/1.1" 200 -
+2023-02-17 10:38:17,871 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-17 10:38:17,871 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-17 10:38:17,872 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 10:38:18,639 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 10:38:18,653 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 10:42:13,678 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-17 10:42:13,679 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-17 10:42:13,679 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 10:42:14,483 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 10:42:14,496 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 10:42:24,541 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:42:24] "GET / HTTP/1.1" 200 -
+2023-02-17 10:43:30,028 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:43:30] "[35m[1mPOST /addTable HTTP/1.1[0m" 500 -
+2023-02-17 10:45:26,565 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 10:45:26,856 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 10:45:28,278 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 10:45:28,286 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 10:45:43,989 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:45:43] "[35m[1mPOST /addTable HTTP/1.1[0m" 500 -
+2023-02-17 10:46:13,845 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 10:46:13,955 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 10:46:15,004 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 10:46:15,013 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 10:46:27,099 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:46:27] "POST /addTable HTTP/1.1" 200 -
+2023-02-17 10:55:59,975 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 10:56:00,828 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 10:56:02,265 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 10:56:02,274 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 10:57:04,762 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:57:04] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-17 10:57:16,467 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:57:16] "POST /addTable HTTP/1.1" 200 -
+2023-02-17 10:57:23,079 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:57:23] "POST /addTable HTTP/1.1" 200 -
+2023-02-17 10:57:25,551 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 10:57:25] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-17 11:00:06,096 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 11:00:06,443 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:00:07,904 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:00:07,911 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:00:14,247 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 11:00:14] "[31m[1mGET /getTableInfo HTTP/1.1[0m" 400 -
+2023-02-17 11:00:39,905 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 11:00:40,026 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:00:41,063 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:00:41,069 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:00:42,720 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 11:00:42] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-17 11:00:52,465 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 11:00:52,556 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:00:53,548 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:00:53,555 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:33:57,885 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 11:33:58,274 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:33:59,580 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:33:59,588 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:38:58,338 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 11:38:58,612 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:39:01,019 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:39:01,028 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:52:37,207 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-17 11:52:37,209 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-17 11:52:37,212 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:52:38,203 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:52:38,218 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 11:53:31,048 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 11:53:31,186 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 11:53:33,106 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 11:53:33,115 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:51:13,040 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:51:14,225 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:51:16,460 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:51:16,480 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:53:35,771 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:53:35] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 12:54:03,124 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:54:03,409 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:54:04,857 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:54:04,884 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:54:11,044 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:54:11,106 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:54:12,018 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:54:12,024 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:54:29,618 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:54:29,695 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:54:31,264 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:54:31,269 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:54:36,404 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:54:36,497 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:54:37,685 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:54:37,690 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:54:50,490 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:54:50] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 12:55:02,762 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:55:02,905 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:55:04,119 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:55:04,127 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:55:05,763 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:55:05] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 12:56:02,079 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:56:02] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 12:57:34,973 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:57:35,305 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:57:36,416 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:57:36,423 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:57:41,553 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:57:41,622 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:57:42,669 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:57:42,673 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:58:05,540 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:58:05,615 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:58:06,877 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:58:06,890 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:58:09,281 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:58:09] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 12:59:21,640 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 12:59:22,024 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 12:59:26,063 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 12:59:26,079 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 12:59:40,398 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 12:59:40] "POST /newreservation HTTP/1.1" 200 -
+2023-02-17 13:03:12,842 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:03:12] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:04:20,393 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:04:21,000 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:04:23,247 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:04:23,254 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:05:13,510 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-17 13:05:13,511 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-17 13:05:13,548 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-17 13:05:14,085 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 400 205
+2023-02-17 13:05:14,086 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 400
+2023-02-17 13:05:14,086 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Fri, 17 Feb 2023 21:05:14 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '205', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQa10e91697af79f547e5a5682098b7346', 'Twilio-Request-Duration': '0.121', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-17 13:05:14,101 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:05:14] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:10:20,785 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:10:21,251 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:10:23,047 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:10:23,056 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:10:40,723 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:10:40,827 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:10:42,315 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:10:42,320 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:11:05,062 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-17 13:11:05,063 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-17 13:11:05,099 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-17 13:11:05,843 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 855
+2023-02-17 13:11:05,844 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 201
+2023-02-17 13:11:05,844 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Fri, 17 Feb 2023 21:11:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '855', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ09a03d9226dc39fc7c4311e04b7ad3a8', 'Twilio-Request-Duration': '0.187', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-17 13:11:05,863 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:11:05] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:11:57,886 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:11:58,422 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:11:59,874 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:11:59,880 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:14:50,155 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:14:50] "POST /newreservation HTTP/1.1" 200 -
+2023-02-17 13:15:46,451 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:15:46,633 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:15:48,312 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:15:48,321 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:16:43,966 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:16:44,061 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:16:45,085 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:16:45,094 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:16:52,805 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:16:52] "POST /newreservation HTTP/1.1" 200 -
+2023-02-17 13:21:06,733 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 13:21:07,439 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:21:08,829 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:21:08,835 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:21:38,496 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 13:21:38,602 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:21:39,876 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:21:39,884 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:22:13,758 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 13:22:13,884 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:22:15,999 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:22:16,010 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:23:01,094 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:23:01,252 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:23:02,398 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:23:02,402 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:23:24,616 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:23:24] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:24:25,009 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:24:25] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:29:58,561 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:29:58,843 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:30:00,563 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:30:00,579 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:31:35,302 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 13:31:35,415 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:31:37,204 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:31:37,215 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:31:49,096 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:31:49] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-17 13:33:19,100 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-17 13:33:19,381 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:33:21,127 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:33:21,149 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:37:34,365 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-17 13:37:34,570 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-17 13:37:35,725 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-17 13:37:35,737 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-17 13:38:30,229 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Feb/2023 13:38:30] "POST /newreservation HTTP/1.1" 200 -
+2023-02-18 13:50:56,867 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-18 13:50:56,868 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-18 13:50:56,869 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:50:57,788 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:50:57,823 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 13:51:27,871 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 13:51:27] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-18 13:52:19,146 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 13:52:19] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-18 13:53:07,462 INFO twilio.http_client Thread-4 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : Headers:
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : Accept-Charset : utf-8
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : Accept : application/json
+2023-02-18 13:53:07,463 INFO twilio.http_client Thread-4 (process_request_thread) : -- END Twilio API Request --
+2023-02-18 13:53:07,494 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-18 13:53:08,055 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 856
+2023-02-18 13:53:08,057 INFO twilio.http_client Thread-4 (process_request_thread) : Response Status Code: 201
+2023-02-18 13:53:08,058 INFO twilio.http_client Thread-4 (process_request_thread) : Response Headers: {'Date': 'Sat, 18 Feb 2023 21:53:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '856', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ0b91154f9a4dadd908bd9b95935d1b2e', 'Twilio-Request-Duration': '0.127', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-18 13:53:08,074 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 13:53:08] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-18 13:55:16,537 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 13:55:16,845 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:55:18,100 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:55:18,108 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 13:56:49,379 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 13:56:49] "POST /addTable HTTP/1.1" 200 -
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : Headers:
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : Accept-Charset : utf-8
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : Accept : application/json
+2023-02-18 13:57:29,322 INFO twilio.http_client Thread-3 (process_request_thread) : -- END Twilio API Request --
+2023-02-18 13:57:29,371 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-18 13:57:29,881 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 854
+2023-02-18 13:57:29,882 INFO twilio.http_client Thread-3 (process_request_thread) : Response Status Code: 201
+2023-02-18 13:57:29,882 INFO twilio.http_client Thread-3 (process_request_thread) : Response Headers: {'Date': 'Sat, 18 Feb 2023 21:57:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '854', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQc8e31d0c2cde0af72bae9a4d8b743c05', 'Twilio-Request-Duration': '0.127', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-18 13:57:29,990 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 13:57:29] "POST /newreservation HTTP/1.1" 200 -
+2023-02-18 13:57:50,175 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 13:57:50,299 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:57:51,537 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:57:51,553 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 13:58:12,248 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 13:58:12,344 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:58:13,564 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:58:13,573 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 13:58:41,475 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 13:58:41,671 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:58:43,063 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:58:43,078 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 13:58:49,289 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 13:58:49,383 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 13:58:50,328 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 13:58:50,338 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:38:35,061 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/tablereservation.py', reloading
+2023-02-18 14:38:35,333 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:38:36,526 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:38:36,537 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:40:01,509 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-18 14:40:01,613 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:40:02,684 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:40:02,691 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:41:46,133 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 14:41:46,236 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:41:47,372 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:41:47,385 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:42:22,683 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 14:42:22,786 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:42:24,249 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:42:24,260 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:42:42,293 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 14:42:42] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 14:43:48,260 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-18 14:43:48,405 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:43:49,737 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:43:49,744 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 14:44:31,151 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 14:44:31] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 14:56:08,571 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-18 14:56:08,755 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 14:56:09,859 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 14:56:09,871 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:06:34,565 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/tablereservation.py', reloading
+2023-02-18 15:06:34,853 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:06:36,073 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:06:36,083 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:06:47,026 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:06:47] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 15:07:02,509 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-18 15:07:02,509 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-18 15:07:02,512 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:07:03,394 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:07:03,402 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:07:07,551 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:07:07] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 15:08:45,057 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:08:45,548 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:08:48,012 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:08:48,032 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:08:51,142 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:08:51] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 15:37:10,868 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-18 15:37:11,147 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:37:12,467 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:37:12,476 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:37:18,536 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:37:18] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 15:38:13,514 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:38:13,656 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:38:14,862 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:38:14,872 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:38:22,106 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:38:22,179 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:38:23,230 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:38:23,237 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:38:24,287 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:38:24] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-18 15:38:41,918 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:38:41,996 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:38:42,971 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:38:42,979 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:39:27,464 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:39:27,570 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:39:28,625 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:39:28,632 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:39:30,595 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:39:30] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:39:54,808 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:39:54] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:40:06,963 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-18 15:40:07,055 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:40:08,002 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:40:08,010 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:40:15,650 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-18 15:40:15,650 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-18 15:40:15,651 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:40:16,639 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:40:16,644 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:40:19,166 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:40:19] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:40:45,600 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:40:45,707 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:40:46,746 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:40:46,752 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:40:49,239 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:40:49] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:42:53,297 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:42:53,402 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:42:54,618 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:42:54,628 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:42:56,503 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:42:56] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:43:09,190 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:43:09,285 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:43:10,372 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:43:10,379 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:43:12,387 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:43:12] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:43:38,400 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:43:38,482 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:43:59,327 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:44:01,654 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:44:01,668 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:44:06,418 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:44:06] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:44:56,699 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:44:56,891 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:44:58,543 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:44:58,553 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:44:58,846 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:44:58] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-18 15:45:17,176 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:45:17,247 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:45:18,203 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:45:18,226 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:47:50,209 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:47:50] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-18 15:51:58,002 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-18 15:51:58,541 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-18 15:52:00,625 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-18 15:52:00,631 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-18 15:52:03,248 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Feb/2023 15:52:03] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:18:38,097 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:18:38,620 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:18:40,056 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:18:40,067 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:19:03,741 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:19:03,856 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:19:05,025 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:19:05,041 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:19:07,403 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:19:07] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:19:54,929 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:19:55,041 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:19:56,093 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:19:56,103 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:20:18,840 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:20:18,947 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:20:19,889 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:20:19,898 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:20:22,001 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:20:22] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:20:28,928 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:20:28] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:20:39,691 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-19 14:20:39,691 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-19 14:20:39,692 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:20:40,687 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:20:40,699 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:20:45,392 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:20:45] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:20:55,190 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:20:55,320 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:20:56,343 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:20:56,356 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:20:57,845 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:20:57] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:22:20,395 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:22:20,590 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:22:21,843 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:22:21,863 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:22:23,030 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:22:23] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:22:38,410 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:22:38,593 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:22:40,738 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:22:40,744 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:22:40,858 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:22:40] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:22:53,089 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:22:53,233 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:22:54,450 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:22:54,456 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:23:00,712 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:23:00,762 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:23:01,909 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:23:01,921 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:23:03,300 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:23:03] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 14:23:31,005 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 14:23:31,289 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 14:23:33,595 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 14:23:33,607 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 14:23:33,729 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 14:23:33] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:09:00,046 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:09:00,573 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:09:02,310 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:09:02,323 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:09:37,495 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:09:37] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-19 15:11:35,196 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:11:35,384 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:11:36,687 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:11:36,700 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:11:52,228 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:11:52,318 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:11:53,338 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:11:53,347 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:11:59,564 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:11:59,705 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:12:00,981 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:12:00,990 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:12:03,011 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:12:03] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:12:40,397 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:12:40,515 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:12:41,639 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:12:41,649 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:12:48,068 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:12:48] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:13:28,165 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:13:28,387 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:13:29,805 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:13:29,811 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:13:29,933 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:13:29] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:13:47,362 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:13:47,468 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:13:48,599 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:13:48,610 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:13:49,246 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:13:49] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:14:05,324 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:14:05] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:14:36,180 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:14:36,290 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:14:37,387 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:14:37,399 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:14:38,766 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:14:38] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:15:07,464 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:15:07,610 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:15:08,770 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:15:08,781 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:15:09,062 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:15:09] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:15:53,243 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:15:53,353 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:15:54,829 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:15:54,842 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:15:54,975 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:15:54] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:16:33,192 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:16:33,331 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:16:34,380 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:16:34,389 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:16:34,904 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:16:34] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:20:42,340 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:20:42,569 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:20:58,341 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:20:59,445 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:20:59,453 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:21:02,786 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:21:02] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:24:00,280 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:24:00,482 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:24:01,791 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:24:01,810 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:24:16,219 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:24:16] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:24:24,766 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:24:24,844 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:24:25,885 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:24:25,894 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:24:28,462 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:24:28] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:27:25,952 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:27:26,158 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:27:27,376 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:27:27,389 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:28:20,980 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:28:21,088 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:28:22,073 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:28:22,090 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:28:28,289 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:28:28,407 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:28:29,603 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:28:29,612 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:28:38,538 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:28:38] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:28:50,403 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:28:50,486 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:28:51,644 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:28:51,651 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:28:52,719 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:28:52,799 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:28:53,736 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:28:53,745 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:30:13,544 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:30:13,652 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:30:14,707 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:30:14,745 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:30:19,326 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:30:19] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:30:33,377 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:30:33,486 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:30:34,609 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:30:34,619 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:30:35,744 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:30:35] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:32:11,474 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:32:11,625 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:32:12,718 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:32:12,728 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:32:16,336 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:32:16] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:34:41,964 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:34:42,345 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:34:44,083 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:34:44,093 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:34:47,695 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:34:47] "[31m[1mGET /getCustomerReservation HTTP/1.1[0m" 400 -
+2023-02-19 15:35:01,722 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:35:01,856 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:35:03,085 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:35:03,098 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:35:05,809 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:35:05] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-19 15:39:11,965 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:39:12,384 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:39:13,820 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:39:13,830 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:39:23,085 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:39:23,190 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:39:24,470 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:39:24,490 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:39:34,168 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:39:34] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-19 15:39:52,683 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:39:52,942 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:39:54,262 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:39:54,271 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:40:08,676 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:40:08,816 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:40:10,859 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:40:10,869 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:40:11,170 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:40:11] "GET /getCustomerReservation HTTP/1.1" 200 -
+2023-02-19 15:42:49,026 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:42:49,223 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:42:49,558 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:42:49,566 INFO werkzeug MainThread :  * Debugger PIN: 114-751-203
+2023-02-19 15:42:55,742 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:42:55,818 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:42:56,097 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:42:56,106 INFO werkzeug MainThread :  * Debugger PIN: 114-751-203
+2023-02-19 15:43:29,330 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:43:29,424 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:43:29,717 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:43:29,723 INFO werkzeug MainThread :  * Debugger PIN: 114-751-203
+2023-02-19 15:43:35,904 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:43:35,969 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:43:37,136 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:43:37,145 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:44:00,056 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:44:00] "[31m[1mGET /getCustomerinfo HTTP/1.1[0m" 400 -
+2023-02-19 15:44:19,839 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:44:19,942 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:44:21,014 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:44:21,023 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:44:30,031 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:44:30] "[31m[1mGET /getCustomerinfo HTTP/1.1[0m" 400 -
+2023-02-19 15:44:42,766 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:44:42,925 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:44:44,541 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:44:44,546 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:44:44,803 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:44:44] "[31m[1mGET /getCustomerinfo HTTP/1.1[0m" 400 -
+2023-02-19 15:46:10,364 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:46:10,526 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:46:11,775 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:46:11,783 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:46:19,996 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:46:20,064 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:46:21,027 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:46:21,035 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:46:30,332 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 15:46:30,403 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:46:31,204 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 15:46:31,218 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 15:46:37,559 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 15:46:37] "GET /getCustomerinfo HTTP/1.1" 200 -
+2023-02-19 15:52:39,867 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/models.py', reloading
+2023-02-19 15:52:40,121 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 15:53:07,352 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 16:27:47,881 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:03:41,526 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:05:17,933 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:05:24,538 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:06:05,214 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:07:18,896 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:07:34,876 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:07:45,564 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:08:15,890 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:08:23,446 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:09:51,210 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-19 17:09:51,214 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-19 17:09:51,216 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:09:52,177 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:09:52,196 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-19 17:10:56,545 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-19 17:10:56,546 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-19 17:10:56,546 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-19 17:10:56,608 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-19 17:10:57,230 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 854
+2023-02-19 17:10:57,231 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 201
+2023-02-19 17:10:57,231 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 01:10:57 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '854', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ71eeba60a51c28d5b93df8ec8eabd76d', 'Twilio-Request-Duration': '0.160', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-19 17:10:57,317 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:10:57] "POST /newreservation HTTP/1.1" 200 -
+2023-02-19 17:11:47,982 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 17:11:48,190 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:11:49,843 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:11:49,852 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:11:59,418 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:11:59] "[35m[1mPOST /newreservation HTTP/1.1[0m" 500 -
+2023-02-19 17:12:28,874 INFO twilio.http_client Thread-3 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : Headers:
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : Accept-Charset : utf-8
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : Accept : application/json
+2023-02-19 17:12:28,875 INFO twilio.http_client Thread-3 (process_request_thread) : -- END Twilio API Request --
+2023-02-19 17:12:28,920 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-19 17:12:29,638 DEBUG urllib3.connectionpool Thread-3 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 856
+2023-02-19 17:12:29,640 INFO twilio.http_client Thread-3 (process_request_thread) : Response Status Code: 201
+2023-02-19 17:12:29,640 INFO twilio.http_client Thread-3 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 01:12:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '856', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ0c47a8a572e98a8d8cd078bceb7853b6', 'Twilio-Request-Duration': '0.193', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-19 17:12:29,716 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:12:29] "POST /newreservation HTTP/1.1" 200 -
+2023-02-19 17:13:05,295 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:13:05] "[35m[1mPOST /addToWaitlist HTTP/1.1[0m" 500 -
+2023-02-19 17:15:19,109 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:15:19] "POST /newreservation HTTP/1.1" 200 -
+2023-02-19 17:15:50,918 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:15:50] "[35m[1mPOST /addToWaitlist HTTP/1.1[0m" 500 -
+2023-02-19 17:17:00,023 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 17:17:00,299 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:17:01,576 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:17:01,587 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:17:04,169 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:17:04] "[35m[1mPOST /addToWaitlist HTTP/1.1[0m" 500 -
+2023-02-19 17:18:29,460 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 17:18:29,598 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:18:30,746 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:18:30,758 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-19 17:18:34,243 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-19 17:18:34,272 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-19 17:18:34,836 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 865
+2023-02-19 17:18:34,837 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 201
+2023-02-19 17:18:34,838 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 01:18:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '865', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ192aea374b4b200a8a8f2b7bdd3361f4', 'Twilio-Request-Duration': '0.155', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-19 17:18:34,839 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:18:34] "POST /addToWaitlist HTTP/1.1" 200 -
+2023-02-19 17:21:17,926 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:21:17] "PUT /releaseTable/6 HTTP/1.1" 200 -
+2023-02-19 17:23:23,637 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-19 17:23:23,915 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:23:25,066 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:23:25,074 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:23:39,530 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-19 17:23:39,626 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:23:40,789 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:23:40,796 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:23:55,325 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-19 17:23:55,374 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:23:56,456 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:23:56,463 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:24:04,794 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/dbhelper.py', reloading
+2023-02-19 17:24:04,864 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:24:05,795 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:24:05,802 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:24:24,370 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 17:24:24,463 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 17:24:25,440 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 17:24:25,454 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 17:24:32,361 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 17:24:32] "PUT /releaseTable/6 HTTP/1.1" 200 -
+2023-02-19 18:47:05,133 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 18:47:05,982 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 18:47:07,490 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 18:47:07,501 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 18:47:51,065 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 18:47:51] "[32mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 308 -
+2023-02-19 18:47:51,217 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 18:47:51] "[35m[1mPOST /assignTableWaitlistCustomer/ HTTP/1.1[0m" 500 -
+2023-02-19 18:48:01,945 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 18:48:02,092 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 18:48:03,510 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 18:48:03,532 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-19 18:48:03,876 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 18:48:03] "[32mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 308 -
+2023-02-19 18:48:04,058 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [19/Feb/2023 18:48:04] "POST /assignTableWaitlistCustomer/ HTTP/1.1" 200 -
+2023-02-19 18:49:20,499 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-19 18:49:20,612 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-19 18:49:21,687 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-19 18:49:21,694 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:26:58,475 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-20 10:26:58,475 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-20 10:26:58,476 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:26:59,329 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:26:59,353 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:27:37,502 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:27:37] "[35m[1mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 500 -
+2023-02-20 10:30:27,390 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:30:27,628 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:30:29,012 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:30:29,027 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:30:31,628 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:30:31] "[35m[1mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 500 -
+2023-02-20 10:36:18,374 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/models.py', reloading
+2023-02-20 10:36:18,627 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:36:28,331 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:37:42,602 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:37:43,681 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:37:43,687 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:37:46,814 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/models.py', reloading
+2023-02-20 10:37:46,901 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:37:47,842 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:37:47,852 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:39:05,625 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:39:05] "GET /getTableInfo HTTP/1.1" 200 -
+2023-02-20 10:39:09,165 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:39:09] "GET /getCustomerinfo HTTP/1.1" 200 -
+2023-02-20 10:39:20,041 INFO twilio.http_client Thread-4 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-20 10:39:20,041 INFO twilio.http_client Thread-4 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-20 10:39:20,041 INFO twilio.http_client Thread-4 (process_request_thread) : Headers:
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : Accept-Charset : utf-8
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : Accept : application/json
+2023-02-20 10:39:20,042 INFO twilio.http_client Thread-4 (process_request_thread) : -- END Twilio API Request --
+2023-02-20 10:39:20,085 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-20 10:39:20,620 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 857
+2023-02-20 10:39:20,621 INFO twilio.http_client Thread-4 (process_request_thread) : Response Status Code: 201
+2023-02-20 10:39:20,621 INFO twilio.http_client Thread-4 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 18:39:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '857', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ1838a8e465e79d1975074087b40dad9e', 'Twilio-Request-Duration': '0.131', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-20 10:39:20,708 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:39:20] "POST /newreservation HTTP/1.1" 200 -
+2023-02-20 10:40:18,926 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:40:18] "[35m[1mPOST /addToWaitlist HTTP/1.1[0m" 500 -
+2023-02-20 10:40:59,442 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:40:59] "POST /newreservation HTTP/1.1" 200 -
+2023-02-20 10:41:04,320 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:41:04] "[35m[1mPOST /addToWaitlist HTTP/1.1[0m" 500 -
+2023-02-20 10:41:47,638 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-20 10:41:47,640 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-20 10:41:47,641 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:41:48,531 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:41:48,543 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-20 10:42:12,241 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-20 10:42:12,281 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-20 10:42:12,855 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 863
+2023-02-20 10:42:12,856 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 201
+2023-02-20 10:42:12,856 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 18:42:12 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '863', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQd74177a94cd48edf043f2bd6a3d2306b', 'Twilio-Request-Duration': '0.163', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-20 10:42:12,859 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:42:12] "POST /addToWaitlist HTTP/1.1" 200 -
+2023-02-20 10:43:08,278 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:43:08] "[35m[1mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 500 -
+2023-02-20 10:43:41,091 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:43:41,278 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:43:42,501 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:43:42,510 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:43:45,639 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:43:45,696 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:43:46,605 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:43:46,617 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:44:06,339 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:44:06] "[35m[1mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 500 -
+2023-02-20 10:45:37,756 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:45:37,887 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:45:39,021 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:45:39,031 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:45:45,270 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:45:45,349 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:45:46,313 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:45:46,321 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:46:07,073 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:46:07,171 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:46:08,180 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:46:08,190 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:46:22,280 INFO twilio.http_client Thread-2 (process_request_thread) : -- BEGIN Twilio API Request --
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : Headers:
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : User-Agent : twilio-python/7.14.0 (Darwin arm64) Python/3.10.6
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : X-Twilio-Client : python-7.14.0
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : Accept-Charset : utf-8
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : Content-Type : application/x-www-form-urlencoded
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : Accept : application/json
+2023-02-20 10:46:22,281 INFO twilio.http_client Thread-2 (process_request_thread) : -- END Twilio API Request --
+2023-02-20 10:46:22,326 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): api.twilio.com:443
+2023-02-20 10:46:22,880 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACbc33c039b0eae8b25d1d9b20641bcf16/Messages.json HTTP/1.1" 201 863
+2023-02-20 10:46:22,881 INFO twilio.http_client Thread-2 (process_request_thread) : Response Status Code: 201
+2023-02-20 10:46:22,881 INFO twilio.http_client Thread-2 (process_request_thread) : Response Headers: {'Date': 'Mon, 20 Feb 2023 18:46:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '863', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQc3cc129d6bb7d9aa7012877f085952bf', 'Twilio-Request-Duration': '0.146', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2023-02-20 10:46:22,883 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:46:22] "POST /addToWaitlist HTTP/1.1" 200 -
+2023-02-20 10:46:48,704 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Feb/2023 10:46:48] "[35m[1mPOST /assignTableWaitlistCustomer HTTP/1.1[0m" 500 -
+2023-02-20 10:47:45,377 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:47:45,521 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:47:46,630 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:47:46,639 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260
+2023-02-20 10:48:07,409 INFO werkzeug MainThread :  * Detected change in '/Users/nikki/code/OOP_reserve_table_service/reservetableapi/routes.py', reloading
+2023-02-20 10:48:07,499 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-20 10:48:08,578 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-20 10:48:08,589 INFO werkzeug MainThread :  * Debugger PIN: 280-683-260

@@ -1,0 +1,17 @@
+certifi==2022.12.7
+charset-normalizer==3.0.1
+click==8.0.4
+Flask==2.0
+idna==3.4
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+requests==2.27.1
+stripe==5.2.0
+urllib3==1.26.15
+Werkzeug==2.0.3
+hvac==1.1.0
+boto3==1.23.10
+botocore==1.26.10
+psycopg2==2.9.5
+Flask-Cors==3.0.10
